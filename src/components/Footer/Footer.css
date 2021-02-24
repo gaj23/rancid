@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+footer {
+  height: 7rem;
+  background: #018994;
+  color: black;
+  border-top: 8px solid #E92731;
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > h3 {
+  font-family: Rubik, sans-serif;
+  margin: .1rem;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+}
+
+.creator {
+  margin: .8rem 1rem;
+  text-align: center;
+}
+
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.creator img {
+  width: 2rem;
+  margin: .5rem;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .creator img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
