@@ -13,15 +13,15 @@ const Footer = () => {
       <div>
         <section className='creator'>
             <h4>Gabrielle Joyce</h4>
-            <a target='_blank' href='https://github.com/gaj23'><img alt="Gabrielle's GitHub" src={ghLogo} /></a>
-            <a target='_blank' href='https://www.linkedin.com/in/gaj23/'><img alt="Gabrielle's LinkedIn" src={linkedInLogo} /></a>
+            <a target='_blank' rel='noreferrer' href='https://github.com/gaj23'><img alt="Gabrielle's GitHub" src={ghLogo} /></a>
+            <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/gaj23/'><img alt="Gabrielle's LinkedIn" src={linkedInLogo} /></a>
         </section>
 
       <section className='creator'>
         <h4>Richard Tyler</h4>
         <article>
-          <a target='_blank' href='https://github.com/richardltyler'><img alt="Richard's GitHub" src={ghLogo} /></a>
-          <a target='_blank' href='https://www.linkedin.com/in/richardltyler/'><img alt="Richard's LinkedIn" src={linkedInLogo} /></a>
+          <a target='_blank' rel='noreferrer' href='https://github.com/richardltyler'><img alt="Richard's GitHub" src={ghLogo} /></a>
+          <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/richardltyler/'><img alt="Richard's LinkedIn" src={linkedInLogo} /></a>
           </article>
         </section>
       </div>
