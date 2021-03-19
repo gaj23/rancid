@@ -29,8 +29,9 @@ h1 {
 
 @media screen and (min-width: 1000px) {
   .home-icon:hover {
-    border: 3px solid #fff;
-    border-radius: 99%;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
   }
 }
-
