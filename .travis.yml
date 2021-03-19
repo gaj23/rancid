@@ -11,6 +11,6 @@ install:
   - npm ci
   - npm run build
 before script:
-  -npm start 
+  - npm start -- --silent &
 script:
-  -$(npm bin)/cypress
+  - $(npm bin)/cypress
