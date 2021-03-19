@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Error from '../Error/Error';
 import Movies from '../Movies/Movies';
 import Film from '../Film/Film';
+import Footer from '../Footer/Footer';
 import apiCalls from '../../api-calls.js';
 import './App.css';
 
@@ -67,6 +68,7 @@ class App extends Component {
             render={() => <Error />}
           />
         </div>
+        <Footer />
       </>
     );
   }
